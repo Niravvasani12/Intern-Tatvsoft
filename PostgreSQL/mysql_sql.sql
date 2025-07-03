@@ -24,6 +24,8 @@ SELECT first_name, email,age  FROM student;
 
 SELECT * FROM student WHERE age >= 18;
 
+SELECT UPPER(first_name) AS upper_name FROM student;
+SELECT LOWER(first_name) AS lower_name FROM student;
 -- Step 6: Delete student with ID = 2
 -- DELETE FROM student WHERE student_id = 2;
 
@@ -51,15 +53,10 @@ SELECT age, COUNT(*) AS num_students FROM student GROUP BY age ORDER BY age;
 SELECT * FROM student ORDER BY age DESC LIMIT 3;
 SELECT * FROM student WHERE first_name ILIKE '%a';
 
-SELECT UPPER(first_name) AS upper_name FROM student;
-SELECT LOWER(first_name) AS lower_name FROM student;
-
-
 SELECT * FROM student WHERE active = TRUE;
 
 
 SELECT * FROM student WHERE first_name LIKE '_i%';
-
 
 
 CREATE TABLE student_marks (
