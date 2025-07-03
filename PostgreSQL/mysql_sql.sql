@@ -12,7 +12,7 @@ INSERT INTO student (first_name, last_name, email, age)
 VALUES 
   ('nirav', 'Vasani', 'nirav12@example.com', 20),
   ('mariya', 'Shimran', 'mariya21@example.com', 21),
-  ('KIRAN', 'CHAUHAN', 'kiran33@example.com', 10),
+  ('KAYRA', 'malik', 'kyra33@example.com', 10),
   ('kiv', 'Sachade', 'kiv22@example.com', 19),
   ('Nency', 'Patel', 'nency44@example.com', 22),
   ('Jennifer', 'Smith', 'jennifer55@example.com', 23);
