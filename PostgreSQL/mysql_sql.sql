@@ -26,8 +26,9 @@ SELECT * FROM student WHERE age >= 18;
 
 SELECT UPPER(first_name) AS upper_name FROM student;
 SELECT LOWER(first_name) AS lower_name FROM student;
--- Step 6: Delete student with ID = 2
--- DELETE FROM student WHERE student_id = 2;
+
+-- If delete all data/delete table then used DROP 
+DELETE FROM student WHERE student_id = 2;
 
 SELECT * FROM student ORDER BY student_id;
 
