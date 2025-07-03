@@ -1,0 +1,22 @@
+<div class="container">
+  <h2 class="niv">Day 2: Angular Form Submission</h2>
+
+  <!-- we can added bootstrap in angular using this link npm i bootstrap -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+  <form (ngSubmit)="onSubmit()" #loginForm="ngForm">
+    <div>
+      <label for="username">Username:</label>
+      <input class="userName" type="text" id="username" name="username" [(ngModel)]="user.username"
+        placeholder="Enter User Name" required />
+    </div>
+
+    <div>
+      <label for="password">Password:</label>
+      <input class="userName" type="password" id="password" name="password" [(ngModel)]="user.password"
+        placeholder="Enter Passwrod" required />
+    </div>
+
+    <button class="box" onclick="onsubmit()">Submit</button>
+  </form>
+</div>

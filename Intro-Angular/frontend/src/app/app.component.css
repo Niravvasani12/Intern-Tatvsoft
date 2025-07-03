@@ -1,0 +1,28 @@
+* {
+  align-items: center;
+}
+.box {
+  padding-top: 100px;
+  border: 1px solid var(--bs-info-border-subtle);
+  background-color: var(--bs-info-bg---bs-info-bg-subtle);
+  padding: 20px;
+  border-radius: 5px;
+}
+.box:hover {
+  background-color: var(--bs-info-bg-subtle);
+  border-color: black;
+}
+
+.niv {
+  font-size: 30px;
+  color: black;
+  font-weight: bold;
+  padding-top: 20px;
+}
+.userName {
+  /* width: 100%; */
+  align-items: center;
+  padding: 10px;
+  margin: 5px;
+  box-sizing: border-box;
+}
